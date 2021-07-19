@@ -104,12 +104,9 @@ export default class DGscreen extends React.Component {
           }}>
           His Paintings-
         </Text>
-         <Image
+          <Image
           style={styles.imageIcon}
-          source={{
-            uri:
-              'https://lh3.googleusercontent.com/lCEhzp8iaeK_5xiycJiZZ6I_BlpVNwOGDFkTIw8JajCf-cm-fDvmlwW3VgJXULB5Q5YA=s170',
-          }}
+          source={require('../assets/Painting.jpg')}
         />
         <Text style={{ marginLeft: 130,marginTop: 40}}> {this.state.like} </Text> 
         <Text style={{ marginLeft: 180, marginTop: -20}}> {this.state.dislike} </Text>
